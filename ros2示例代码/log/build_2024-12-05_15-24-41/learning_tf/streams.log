@@ -1,0 +1,24 @@
+[0.763s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf': PYTHONPATH=/home/potato/ros2_ws/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/potato/ros2_ws/build/learning_tf/build install --record /home/potato/ros2_ws/build/learning_tf/install.log --single-version-externally-managed install_data
+[0.976s] running egg_info
+[0.976s] writing ../../../build/learning_tf/learning_tf.egg-info/PKG-INFO
+[0.977s] writing dependency_links to ../../../build/learning_tf/learning_tf.egg-info/dependency_links.txt
+[0.977s] writing entry points to ../../../build/learning_tf/learning_tf.egg-info/entry_points.txt
+[0.978s] writing requirements to ../../../build/learning_tf/learning_tf.egg-info/requires.txt
+[0.978s] writing top-level names to ../../../build/learning_tf/learning_tf.egg-info/top_level.txt
+[0.980s] reading manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[0.981s] writing manifest file '../../../build/learning_tf/learning_tf.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.982s] running build_py
+[0.982s] running install
+[0.983s] running install_lib
+[0.984s] running install_data
+[0.984s] running install_egg_info
+[0.985s] removing '/home/potato/ros2_ws/install/learning_tf/lib/python3.10/site-packages/learning_tf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.986s] Copying ../../../build/learning_tf/learning_tf.egg-info to /home/potato/ros2_ws/install/learning_tf/lib/python3.10/site-packages/learning_tf-0.0.0-py3.10.egg-info
+[0.986s] running install_scripts
+[1.003s] Installing static_tf_broadcaster script to /home/potato/ros2_ws/install/learning_tf/lib/learning_tf
+[1.022s] Installing tf_listener script to /home/potato/ros2_ws/install/learning_tf/lib/learning_tf
+[1.022s] Installing turtle_following script to /home/potato/ros2_ws/install/learning_tf/lib/learning_tf
+[1.022s] Installing turtle_tf_broadcaster script to /home/potato/ros2_ws/install/learning_tf/lib/learning_tf
+[1.022s] writing list of installed files to '/home/potato/ros2_ws/build/learning_tf/install.log'
+[1.027s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf' returned '0': PYTHONPATH=/home/potato/ros2_ws/build/learning_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_tf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_tf build --build-base /home/potato/ros2_ws/build/learning_tf/build install --record /home/potato/ros2_ws/build/learning_tf/install.log --single-version-externally-managed install_data

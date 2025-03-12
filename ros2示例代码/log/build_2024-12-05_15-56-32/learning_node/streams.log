@@ -1,0 +1,25 @@
+[0.650s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/potato/ros2_ws/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/potato/ros2_ws/build/learning_node/build install --record /home/potato/ros2_ws/build/learning_node/install.log --single-version-externally-managed install_data
+[0.872s] running egg_info
+[0.873s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[0.873s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[0.873s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[0.874s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[0.874s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[0.876s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.876s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.876s] running build
+[0.876s] running build_py
+[0.876s] running install
+[0.877s] running install_lib
+[0.878s] running install_data
+[0.878s] running install_egg_info
+[0.880s] removing '/home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.880s] Copying ../../../build/learning_node/learning_node.egg-info to /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info
+[0.881s] running install_scripts
+[0.899s] Installing node_helloworld script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.900s] Installing node_helloworld_class script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.900s] Installing node_object script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.900s] Installing node_object_webcam script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.900s] Installing node_object_webcam1 script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.901s] writing list of installed files to '/home/potato/ros2_ws/build/learning_node/install.log'
+[1.252s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/potato/ros2_ws/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/potato/ros2_ws/build/learning_node/build install --record /home/potato/ros2_ws/build/learning_node/install.log --single-version-externally-managed install_data

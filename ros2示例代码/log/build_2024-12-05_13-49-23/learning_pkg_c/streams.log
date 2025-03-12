@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/potato/ros2_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/potato/ros2_ws/install/learning_pkg_c
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.195s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.373s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.627s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.627s] -- Detecting CXX compile features
+[0.627s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.854s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.992s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'lint_cmake' to check CMake code style
+[1.260s] -- Added test 'xmllint' to check XML markup files
+[1.261s] -- Configuring done
+[1.264s] -- Generating done
+[1.264s] -- Build files have been written to: /home/potato/ros2_ws/build/learning_pkg_c
+[1.269s] Invoked command in '/home/potato/ros2_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c -DCMAKE_INSTALL_PREFIX=/home/potato/ros2_ws/install/learning_pkg_c
+[1.269s] Invoking command in '/home/potato/ros2_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/potato/ros2_ws/build/learning_pkg_c -- -j4 -l4
+[1.760s] Invoked command in '/home/potato/ros2_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/potato/ros2_ws/build/learning_pkg_c -- -j4 -l4
+[2.087s] Invoking command in '/home/potato/ros2_ws/build/learning_pkg_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/potato/ros2_ws/build/learning_pkg_c
+[2.108s] -- Install configuration: ""
+[2.108s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+[2.108s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+[2.108s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+[2.108s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+[2.109s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+[2.111s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+[2.111s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+[2.111s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+[2.111s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+[2.111s] -- Installing: /home/potato/ros2_ws/install/learning_pkg_c/share/learning_pkg_c/package.xml
+[2.118s] Invoked command in '/home/potato/ros2_ws/build/learning_pkg_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/potato/ros2_ws/build/learning_pkg_c

@@ -1,0 +1,91 @@
+[0.021s] Invoking command in '/home/potato/ros2_ws/build/learning_tf_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp -DCMAKE_INSTALL_PREFIX=/home/potato/ros2_ws/install/learning_tf_cpp
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.445s] -- The CXX compiler identification is GNU 11.4.0
+[0.451s] -- Detecting C compiler ABI info
+[0.551s] -- Detecting C compiler ABI info - done
+[0.557s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.557s] -- Detecting C compile features
+[0.558s] -- Detecting C compile features - done
+[0.561s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.642s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.643s] -- Detecting CXX compile features
+[0.643s] -- Detecting CXX compile features - done
+[0.646s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.814s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.927s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.967s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.973s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.983s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.999s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.063s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.113s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.118s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.228s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.246s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.297s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.308s] -- Looking for pthread.h
+[1.381s] -- Looking for pthread.h - found
+[1.381s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.455s] -- Found Threads: TRUE  
+[1.500s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.517s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.670s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.709s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.852s] -- Configured cppcheck include dirs: 
+[1.852s] -- Configured cppcheck exclude dirs and/or files: 
+[1.853s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.853s] -- Added test 'lint_cmake' to check CMake code style
+[1.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.860s] -- Added test 'uncrustify' to check C / C++ code style
+[1.860s] -- Configured uncrustify additional arguments: 
+[1.861s] -- Added test 'xmllint' to check XML markup files
+[1.863s] -- Configuring done
+[1.880s] -- Generating done
+[1.884s] -- Build files have been written to: /home/potato/ros2_ws/build/learning_tf_cpp
+[1.892s] Invoked command in '/home/potato/ros2_ws/build/learning_tf_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake /home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp -DCMAKE_INSTALL_PREFIX=/home/potato/ros2_ws/install/learning_tf_cpp
+[1.896s] Invoking command in '/home/potato/ros2_ws/build/learning_tf_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/potato/ros2_ws/build/learning_tf_cpp -- -j4 -l4
+[1.965s] [ 12%] [32mBuilding CXX object CMakeFiles/turtle_tf_broadcaster.dir/src/turtle_tf_broadcaster.cpp.o[0m
+[1.975s] [ 25%] [32mBuilding CXX object CMakeFiles/static_tf_broadcaster.dir/src/static_tf_broadcaster.cpp.o[0m
+[1.980s] [ 37%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[1.999s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_following.dir/src/turtle_following.cpp.o[0m
+[10.272s] [ 62%] [32m[1mLinking CXX executable static_tf_broadcaster[0m
+[10.486s] [ 75%] [32m[1mLinking CXX executable tf_listener[0m
+[11.150s] [ 75%] Built target tf_listener
+[11.186s] [ 75%] Built target static_tf_broadcaster
+[15.751s] [ 87%] [32m[1mLinking CXX executable turtle_following[0m
+[16.365s] [ 87%] Built target turtle_following
+[19.901s] [100%] [32m[1mLinking CXX executable turtle_tf_broadcaster[0m
+[20.536s] [100%] Built target turtle_tf_broadcaster
+[20.569s] Invoked command in '/home/potato/ros2_ws/build/learning_tf_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/potato/ros2_ws/build/learning_tf_cpp -- -j4 -l4
+[20.761s] Invoking command in '/home/potato/ros2_ws/build/learning_tf_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/potato/ros2_ws/build/learning_tf_cpp
+[20.798s] -- Install configuration: ""
+[20.798s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/static_tf_broadcaster
+[20.799s] -- Set runtime path of "/home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/static_tf_broadcaster" to ""
+[20.799s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/turtle_tf_broadcaster
+[20.805s] -- Set runtime path of "/home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/turtle_tf_broadcaster" to ""
+[20.806s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/tf_listener
+[20.807s] -- Set runtime path of "/home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/tf_listener" to ""
+[20.807s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/turtle_following
+[20.809s] -- Set runtime path of "/home/potato/ros2_ws/install/learning_tf_cpp/lib/learning_tf_cpp/turtle_following" to ""
+[20.810s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp//launch
+[20.811s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp//launch/turtle_following_demo.launch.py
+[20.811s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf_cpp
+[20.811s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf_cpp
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/environment/ament_prefix_path.sh
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/environment/ament_prefix_path.dsv
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/environment/path.sh
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/environment/path.dsv
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/local_setup.bash
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/local_setup.sh
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/local_setup.zsh
+[20.816s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/local_setup.dsv
+[20.817s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/package.dsv
+[20.817s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/ament_index/resource_index/packages/learning_tf_cpp
+[20.817s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/cmake/learning_tf_cppConfig.cmake
+[20.817s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/cmake/learning_tf_cppConfig-version.cmake
+[20.817s] -- Installing: /home/potato/ros2_ws/install/learning_tf_cpp/share/learning_tf_cpp/package.xml
+[20.821s] Invoked command in '/home/potato/ros2_ws/build/learning_tf_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/potato/ros2_ws/build/learning_tf_cpp

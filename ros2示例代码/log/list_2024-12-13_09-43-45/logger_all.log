@@ -1,0 +1,321 @@
+[1.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/potato/ros2_ws']
+[1.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/potato/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x710970f450c0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x710970f442b0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x710970f442b0>>)
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.717s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.718s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/potato/ros2_ws'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'ignore'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'ignore_ament_install'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['colcon_pkg']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'colcon_pkg'
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['colcon_meta']
+[1.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'colcon_meta'
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['ros']
+[1.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'ros'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['cmake', 'python']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'cmake'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'python'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extensions ['python_setup_py']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws) by extension 'python_setup_py'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/build) by extension 'ignore'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/build) ignored
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/install) by extension 'ignore'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/install) ignored
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/log) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/log) ignored
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'ignore_ament_install'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['colcon_pkg']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'colcon_pkg'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['colcon_meta']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'colcon_meta'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['ros']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'ros'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['cmake', 'python']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'cmake'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'python'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extensions ['python_setup_py']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src) by extension 'python_setup_py'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'ignore'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'ignore_ament_install'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['colcon_pkg']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'colcon_pkg'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['colcon_meta']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'colcon_meta'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['ros']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'ros'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['cmake', 'python']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'cmake'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'python'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extensions ['python_setup_py']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials) by extension 'python_setup_py'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/build) by extensions ['ignore', 'ignore_ament_install']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/build) by extension 'ignore'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/build) ignored
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['ignore', 'ignore_ament_install']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'ignore'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'ignore_ament_install'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['colcon_pkg']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'colcon_pkg'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['colcon_meta']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'colcon_meta'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['ros']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'ros'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['cmake', 'python']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'cmake'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'python'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extensions ['python_setup_py']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs) by extension 'python_setup_py'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'ignore'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'ignore_ament_install'
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['colcon_pkg']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'colcon_pkg'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['colcon_meta']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'colcon_meta'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['ros']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'ros'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['cmake', 'python']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'cmake'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'python'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extensions ['python_setup_py']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/docs/images) by extension 'python_setup_py'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/install) by extensions ['ignore', 'ignore_ament_install']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/install) by extension 'ignore'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/install) ignored
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extensions ['ignore', 'ignore_ament_install']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extension 'ignore'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extension 'ignore_ament_install'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extensions ['colcon_pkg']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extension 'colcon_pkg'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extensions ['colcon_meta']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extension 'colcon_meta'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extensions ['ros']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action) by extension 'ros'
+[1.788s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action' with type 'ros.ament_python' and name 'learning_action'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extension 'ignore_ament_install'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extensions ['colcon_pkg']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extension 'colcon_pkg'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extensions ['colcon_meta']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extension 'colcon_meta'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extensions ['ros']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp) by extension 'ros'
+[1.794s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_action_cpp' with type 'ros.ament_cmake' and name 'learning_action_cpp'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extensions ['ignore', 'ignore_ament_install']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extension 'ignore'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extension 'ignore_ament_install'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extensions ['colcon_pkg']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extension 'colcon_pkg'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extensions ['colcon_meta']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extension 'colcon_meta'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extensions ['ros']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv) by extension 'ros'
+[1.795s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_cv' with type 'ros.ament_python' and name 'learning_cv'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ignore_ament_install'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_pkg']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_pkg'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['colcon_meta']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'colcon_meta'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extensions ['ros']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo) by extension 'ros'
+[1.797s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo' with type 'ros.ament_python' and name 'learning_gazebo'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ignore_ament_install'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['colcon_pkg']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'colcon_pkg'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['colcon_meta']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'colcon_meta'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extensions ['ros']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic) by extension 'ros'
+[1.824s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_gazebo_harmonic' with type 'ros.ament_python' and name 'learning_gazebo_harmonic'
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extension 'ignore'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extension 'ignore_ament_install'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_pkg']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extension 'colcon_pkg'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extensions ['colcon_meta']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extension 'colcon_meta'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extensions ['ros']
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface) by extension 'ros'
+[1.826s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_interface' with type 'ros.ament_cmake' and name 'learning_interface'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extensions ['ignore', 'ignore_ament_install']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extension 'ignore'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extension 'ignore_ament_install'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_pkg']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extension 'colcon_pkg'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extensions ['colcon_meta']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extension 'colcon_meta'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extensions ['ros']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch) by extension 'ros'
+[1.828s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_launch' with type 'ros.ament_python' and name 'learning_launch'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extensions ['ignore', 'ignore_ament_install']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extension 'ignore'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extension 'ignore_ament_install'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extensions ['colcon_pkg']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extension 'colcon_pkg'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extensions ['colcon_meta']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extension 'colcon_meta'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extensions ['ros']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node) by extension 'ros'
+[1.830s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node' with type 'ros.ament_python' and name 'learning_node'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extension 'ignore_ament_install'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extensions ['colcon_pkg']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extension 'colcon_pkg'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extensions ['colcon_meta']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extension 'colcon_meta'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extensions ['ros']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp) by extension 'ros'
+[1.832s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node_cpp' with type 'ros.ament_cmake' and name 'learning_node_cpp'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['ignore', 'ignore_ament_install']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ignore_ament_install'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_pkg']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_pkg'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['colcon_meta']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter) by extension 'ros'
+[1.833s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter' with type 'ros.ament_python' and name 'learning_parameter'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ignore_ament_install'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['colcon_pkg']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'colcon_pkg'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['colcon_meta']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'colcon_meta'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extensions ['ros']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp) by extension 'ros'
+[1.852s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter_cpp' with type 'ros.ament_cmake' and name 'learning_parameter_cpp'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ignore', 'ignore_ament_install']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ignore_ament_install'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_pkg']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_pkg'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['colcon_meta']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'colcon_meta'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extensions ['ros']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c) by extension 'ros'
+[1.856s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_c' with type 'ros.ament_cmake' and name 'learning_pkg_c'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ignore_ament_install'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_pkg']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_pkg'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['colcon_meta']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'colcon_meta'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extensions ['ros']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python) by extension 'ros'
+[1.859s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_pkg_python' with type 'ros.ament_python' and name 'learning_pkg_python'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extension 'ignore'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extension 'ignore_ament_install'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_pkg']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extension 'colcon_pkg'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extensions ['colcon_meta']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extension 'colcon_meta'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extensions ['ros']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos) by extension 'ros'
+[1.860s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos' with type 'ros.ament_python' and name 'learning_qos'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extensions ['ignore', 'ignore_ament_install']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extension 'ignore_ament_install'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extensions ['colcon_pkg']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extension 'colcon_pkg'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extensions ['colcon_meta']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extension 'colcon_meta'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extensions ['ros']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service) by extension 'ros'
+[1.861s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service' with type 'ros.ament_python' and name 'learning_service'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extension 'ignore_ament_install'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extensions ['colcon_pkg']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extension 'colcon_pkg'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extensions ['colcon_meta']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extension 'colcon_meta'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extensions ['ros']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp) by extension 'ros'
+[1.862s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_service_cpp' with type 'ros.ament_cmake' and name 'learning_service_cpp'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extensions ['ignore', 'ignore_ament_install']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extension 'ignore'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extension 'ignore_ament_install'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_pkg']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extension 'colcon_pkg'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extensions ['ros']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf) by extension 'ros'
+[1.863s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf' with type 'ros.ament_python' and name 'learning_tf'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ignore'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ignore_ament_install'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['colcon_pkg']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extension 'colcon_pkg'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['colcon_meta']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extension 'colcon_meta'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extensions ['ros']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp) by extension 'ros'
+[1.865s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_tf_cpp' with type 'ros.ament_cmake' and name 'learning_tf_cpp'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extension 'ignore_ament_install'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_pkg']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extension 'colcon_pkg'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extensions ['colcon_meta']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extension 'colcon_meta'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extensions ['ros']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic) by extension 'ros'
+[1.877s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic' with type 'ros.ament_python' and name 'learning_topic'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ignore_ament_install'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['colcon_pkg']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extension 'colcon_pkg'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['colcon_meta']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extension 'colcon_meta'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extensions ['ros']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp) by extension 'ros'
+[1.879s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic_cpp' with type 'ros.ament_cmake' and name 'learning_topic_cpp'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ignore_ament_install'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_pkg']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_pkg'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['colcon_meta']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extension 'colcon_meta'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extensions ['ros']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf) by extension 'ros'
+[1.880s] DEBUG:colcon.colcon_core.package_identification:Package '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_urdf' with type 'ros.ament_python' and name 'learning_urdf'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/log) by extensions ['ignore', 'ignore_ament_install']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/log) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/log) ignored
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'ignore_ament_install'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['colcon_pkg']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'colcon_pkg'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['colcon_meta']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'colcon_meta'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['ros']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'ros'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['cmake', 'python']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'cmake'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'python'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extensions ['python_setup_py']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(/home/potato/ros2_ws/src/ros2_21_tutorials/python) by extension 'python_setup_py'
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

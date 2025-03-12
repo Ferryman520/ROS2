@@ -1,0 +1,26 @@
+[0.509s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic': AMENT_PREFIX_PATH=/home/potato/ros2_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potato/ros2_ws/install/learning_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/potato/ros2_ws/install/learning_interface/lib:/home/potato/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/potato/ros2_ws/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_topic/lib/python3.10/site-packages:/home/potato/ros2_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/potato/ros2_ws/build/learning_topic/build install --record /home/potato/ros2_ws/build/learning_topic/install.log --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.691s] writing ../../../build/learning_topic/learning_topic.egg-info/PKG-INFO
+[0.691s] writing dependency_links to ../../../build/learning_topic/learning_topic.egg-info/dependency_links.txt
+[0.691s] writing entry points to ../../../build/learning_topic/learning_topic.egg-info/entry_points.txt
+[0.691s] writing requirements to ../../../build/learning_topic/learning_topic.egg-info/requires.txt
+[0.692s] writing top-level names to ../../../build/learning_topic/learning_topic.egg-info/top_level.txt
+[0.693s] reading manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.694s] writing manifest file '../../../build/learning_topic/learning_topic.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.694s] running install
+[0.695s] running install_lib
+[0.696s] running install_data
+[0.697s] running install_egg_info
+[0.699s] removing '/home/potato/ros2_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.700s] Copying ../../../build/learning_topic/learning_topic.egg-info to /home/potato/ros2_ws/install/learning_topic/lib/python3.10/site-packages/learning_topic-0.0.0-py3.10.egg-info
+[0.700s] running install_scripts
+[0.719s] Installing interface_object_pub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.720s] Installing interface_object_sub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.720s] Installing topic_helloworld_pub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.720s] Installing topic_helloworld_sub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.720s] Installing topic_webcam_pub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.720s] Installing topic_webcam_sub script to /home/potato/ros2_ws/install/learning_topic/lib/learning_topic
+[0.721s] writing list of installed files to '/home/potato/ros2_ws/build/learning_topic/install.log'
+[0.741s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_topic' returned '0': AMENT_PREFIX_PATH=/home/potato/ros2_ws/install/learning_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/potato/ros2_ws/install/learning_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/potato/ros2_ws/install/learning_interface/lib:/home/potato/dev_ws/install/learning_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/potato/ros2_ws/build/learning_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_topic/lib/python3.10/site-packages:/home/potato/ros2_ws/install/learning_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_topic build --build-base /home/potato/ros2_ws/build/learning_topic/build install --record /home/potato/ros2_ws/build/learning_topic/install.log --single-version-externally-managed install_data

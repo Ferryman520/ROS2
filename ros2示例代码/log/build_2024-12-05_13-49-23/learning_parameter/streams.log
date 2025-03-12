@@ -1,0 +1,41 @@
+[0.653s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter': PYTHONPATH=/home/potato/ros2_ws/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/potato/ros2_ws/build/learning_parameter/build install --record /home/potato/ros2_ws/build/learning_parameter/install.log --single-version-externally-managed install_data
+[0.897s] running egg_info
+[0.898s] creating ../../../build/learning_parameter/learning_parameter.egg-info
+[0.898s] writing ../../../build/learning_parameter/learning_parameter.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../../build/learning_parameter/learning_parameter.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../../build/learning_parameter/learning_parameter.egg-info/entry_points.txt
+[0.899s] writing requirements to ../../../build/learning_parameter/learning_parameter.egg-info/requires.txt
+[0.899s] writing top-level names to ../../../build/learning_parameter/learning_parameter.egg-info/top_level.txt
+[0.899s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[0.901s] reading manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[0.904s] writing manifest file '../../../build/learning_parameter/learning_parameter.egg-info/SOURCES.txt'
+[0.905s] running build
+[0.905s] running build_py
+[0.905s] creating /home/potato/ros2_ws/build/learning_parameter/build
+[0.906s] creating /home/potato/ros2_ws/build/learning_parameter/build/lib
+[0.906s] creating /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter
+[0.906s] copying learning_parameter/param_object_detect.py -> /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter
+[0.907s] copying learning_parameter/__init__.py -> /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter
+[0.907s] copying learning_parameter/param_declare.py -> /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter
+[0.907s] running install
+[0.907s] running install_lib
+[0.907s] creating /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[0.907s] copying /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter/param_object_detect.py -> /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[0.907s] copying /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter/__init__.py -> /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[0.907s] copying /home/potato/ros2_ws/build/learning_parameter/build/lib/learning_parameter/param_declare.py -> /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter
+[0.907s] byte-compiling /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_object_detect.py to param_object_detect.cpython-310.pyc
+[0.907s] byte-compiling /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/__init__.py to __init__.cpython-310.pyc
+[0.907s] byte-compiling /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter/param_declare.py to param_declare.cpython-310.pyc
+[0.907s] running install_data
+[0.914s] creating /home/potato/ros2_ws/install/learning_parameter/share/ament_index
+[0.914s] creating /home/potato/ros2_ws/install/learning_parameter/share/ament_index/resource_index
+[0.914s] creating /home/potato/ros2_ws/install/learning_parameter/share/ament_index/resource_index/packages
+[0.914s] copying resource/learning_parameter -> /home/potato/ros2_ws/install/learning_parameter/share/ament_index/resource_index/packages
+[0.914s] copying package.xml -> /home/potato/ros2_ws/install/learning_parameter/share/learning_parameter
+[0.914s] running install_egg_info
+[0.914s] Copying ../../../build/learning_parameter/learning_parameter.egg-info to /home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages/learning_parameter-0.0.0-py3.10.egg-info
+[0.915s] running install_scripts
+[0.934s] Installing param_declare script to /home/potato/ros2_ws/install/learning_parameter/lib/learning_parameter
+[0.934s] Installing param_object_detect script to /home/potato/ros2_ws/install/learning_parameter/lib/learning_parameter
+[0.935s] writing list of installed files to '/home/potato/ros2_ws/build/learning_parameter/install.log'
+[0.957s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_parameter' returned '0': PYTHONPATH=/home/potato/ros2_ws/build/learning_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_parameter build --build-base /home/potato/ros2_ws/build/learning_parameter/build install --record /home/potato/ros2_ws/build/learning_parameter/install.log --single-version-externally-managed install_data

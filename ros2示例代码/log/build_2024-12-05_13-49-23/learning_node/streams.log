@@ -1,0 +1,49 @@
+[0.545s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node': PYTHONPATH=/home/potato/ros2_ws/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/potato/ros2_ws/build/learning_node/build install --record /home/potato/ros2_ws/build/learning_node/install.log --single-version-externally-managed install_data
+[0.731s] running egg_info
+[0.732s] creating ../../../build/learning_node/learning_node.egg-info
+[0.732s] writing ../../../build/learning_node/learning_node.egg-info/PKG-INFO
+[0.732s] writing dependency_links to ../../../build/learning_node/learning_node.egg-info/dependency_links.txt
+[0.732s] writing entry points to ../../../build/learning_node/learning_node.egg-info/entry_points.txt
+[0.732s] writing requirements to ../../../build/learning_node/learning_node.egg-info/requires.txt
+[0.732s] writing top-level names to ../../../build/learning_node/learning_node.egg-info/top_level.txt
+[0.733s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.734s] reading manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.735s] writing manifest file '../../../build/learning_node/learning_node.egg-info/SOURCES.txt'
+[0.735s] running build
+[0.735s] running build_py
+[0.735s] creating /home/potato/ros2_ws/build/learning_node/build
+[0.735s] creating /home/potato/ros2_ws/build/learning_node/build/lib
+[0.735s] creating /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.735s] copying learning_node/node_helloworld_class.py -> /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.735s] copying learning_node/node_object.py -> /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.736s] copying learning_node/node_helloworld.py -> /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.736s] copying learning_node/__init__.py -> /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.737s] copying learning_node/node_object_webcam.py -> /home/potato/ros2_ws/build/learning_node/build/lib/learning_node
+[0.737s] running install
+[0.737s] running install_lib
+[0.738s] creating /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.738s] copying /home/potato/ros2_ws/build/learning_node/build/lib/learning_node/node_helloworld_class.py -> /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.738s] copying /home/potato/ros2_ws/build/learning_node/build/lib/learning_node/node_object.py -> /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.738s] copying /home/potato/ros2_ws/build/learning_node/build/lib/learning_node/node_helloworld.py -> /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.738s] copying /home/potato/ros2_ws/build/learning_node/build/lib/learning_node/__init__.py -> /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.738s] copying /home/potato/ros2_ws/build/learning_node/build/lib/learning_node/node_object_webcam.py -> /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node
+[0.739s] byte-compiling /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node/node_helloworld_class.py to node_helloworld_class.cpython-310.pyc
+[0.739s] byte-compiling /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node/node_object.py to node_object.cpython-310.pyc
+[0.739s] byte-compiling /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node/node_helloworld.py to node_helloworld.cpython-310.pyc
+[0.740s] byte-compiling /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node/__init__.py to __init__.cpython-310.pyc
+[0.740s] byte-compiling /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node/node_object_webcam.py to node_object_webcam.cpython-310.pyc
+[0.740s] running install_data
+[0.740s] creating /home/potato/ros2_ws/install/learning_node/share/ament_index
+[0.740s] creating /home/potato/ros2_ws/install/learning_node/share/ament_index/resource_index
+[0.740s] creating /home/potato/ros2_ws/install/learning_node/share/ament_index/resource_index/packages
+[0.740s] copying resource/learning_node -> /home/potato/ros2_ws/install/learning_node/share/ament_index/resource_index/packages
+[0.741s] copying package.xml -> /home/potato/ros2_ws/install/learning_node/share/learning_node
+[0.741s] running install_egg_info
+[0.743s] Copying ../../../build/learning_node/learning_node.egg-info to /home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages/learning_node-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.767s] Installing node_helloworld script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.768s] Installing node_helloworld_class script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.768s] Installing node_object script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.768s] Installing node_object_webcam script to /home/potato/ros2_ws/install/learning_node/lib/learning_node
+[0.768s] writing list of installed files to '/home/potato/ros2_ws/build/learning_node/install.log'
+[0.786s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_node' returned '0': PYTHONPATH=/home/potato/ros2_ws/build/learning_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_node build --build-base /home/potato/ros2_ws/build/learning_node/build install --record /home/potato/ros2_ws/build/learning_node/install.log --single-version-externally-managed install_data

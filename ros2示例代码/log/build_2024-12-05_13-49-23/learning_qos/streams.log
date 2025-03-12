@@ -1,0 +1,41 @@
+[1.338s] Invoking command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos': PYTHONPATH=/home/potato/ros2_ws/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/potato/ros2_ws/build/learning_qos/build install --record /home/potato/ros2_ws/build/learning_qos/install.log --single-version-externally-managed install_data
+[1.626s] running egg_info
+[1.631s] creating ../../../build/learning_qos/learning_qos.egg-info
+[1.631s] writing ../../../build/learning_qos/learning_qos.egg-info/PKG-INFO
+[1.631s] writing dependency_links to ../../../build/learning_qos/learning_qos.egg-info/dependency_links.txt
+[1.631s] writing entry points to ../../../build/learning_qos/learning_qos.egg-info/entry_points.txt
+[1.632s] writing requirements to ../../../build/learning_qos/learning_qos.egg-info/requires.txt
+[1.632s] writing top-level names to ../../../build/learning_qos/learning_qos.egg-info/top_level.txt
+[1.634s] writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.634s] reading manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.640s] writing manifest file '../../../build/learning_qos/learning_qos.egg-info/SOURCES.txt'
+[1.640s] running build
+[1.640s] running build_py
+[1.640s] creating /home/potato/ros2_ws/build/learning_qos/build
+[1.640s] creating /home/potato/ros2_ws/build/learning_qos/build/lib
+[1.640s] creating /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos
+[1.641s] copying learning_qos/qos_helloworld_sub.py -> /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos
+[1.641s] copying learning_qos/__init__.py -> /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos
+[1.641s] copying learning_qos/qos_helloworld_pub.py -> /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos
+[1.641s] running install
+[1.641s] running install_lib
+[1.641s] creating /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.641s] copying /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos/qos_helloworld_sub.py -> /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.641s] copying /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos/__init__.py -> /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.641s] copying /home/potato/ros2_ws/build/learning_qos/build/lib/learning_qos/qos_helloworld_pub.py -> /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos
+[1.645s] byte-compiling /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_sub.py to qos_helloworld_sub.cpython-310.pyc
+[1.645s] byte-compiling /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/__init__.py to __init__.cpython-310.pyc
+[1.645s] byte-compiling /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos/qos_helloworld_pub.py to qos_helloworld_pub.cpython-310.pyc
+[1.647s] running install_data
+[1.647s] creating /home/potato/ros2_ws/install/learning_qos/share/ament_index
+[1.647s] creating /home/potato/ros2_ws/install/learning_qos/share/ament_index/resource_index
+[1.647s] creating /home/potato/ros2_ws/install/learning_qos/share/ament_index/resource_index/packages
+[1.651s] copying resource/learning_qos -> /home/potato/ros2_ws/install/learning_qos/share/ament_index/resource_index/packages
+[1.651s] copying package.xml -> /home/potato/ros2_ws/install/learning_qos/share/learning_qos
+[1.651s] running install_egg_info
+[1.652s] Copying ../../../build/learning_qos/learning_qos.egg-info to /home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages/learning_qos-0.0.0-py3.10.egg-info
+[1.660s] running install_scripts
+[1.680s] Installing qos_helloworld_pub script to /home/potato/ros2_ws/install/learning_qos/lib/learning_qos
+[1.680s] Installing qos_helloworld_sub script to /home/potato/ros2_ws/install/learning_qos/lib/learning_qos
+[1.681s] writing list of installed files to '/home/potato/ros2_ws/build/learning_qos/install.log'
+[1.703s] Invoked command in '/home/potato/ros2_ws/src/ros2_21_tutorials/learning_qos' returned '0': PYTHONPATH=/home/potato/ros2_ws/build/learning_qos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/ros2_ws/install/learning_qos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/learning_qos build --build-base /home/potato/ros2_ws/build/learning_qos/build install --record /home/potato/ros2_ws/build/learning_qos/install.log --single-version-externally-managed install_data
