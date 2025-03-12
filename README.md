@@ -13,7 +13,6 @@ keyboard.cpp 文件包含一个名为 KeyboardController 的 ROS2 节点，执�
 ROS2 消息发布：将捕获的键盘输入作为 std_msgs::msg::String 消息发布到名为 keyboard_topic 的 ROS2 主题上。  
 串口通信：使用 serial 库设置和管理串口连接，允许与外部设备进行通信。  
 主要功能：
-
 实时键盘输入：无需用户按下回车键即可捕获键盘输入，提供无缝体验。  
 ROS2 集成：利用 ROS2 主题发布键盘输入，便于与其他 ROS2 节点和系统集成。  
 串口管理：配置并打开串口（/dev/ttyUSB0，波特率为 115200）以进行通信。  
