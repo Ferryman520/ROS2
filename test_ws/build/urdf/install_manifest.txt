@@ -1,0 +1,15 @@
+/home/potato/test_ws/install/urdf/share/ament_index/resource_index/package_run_dependencies/urdf
+/home/potato/test_ws/install/urdf/share/ament_index/resource_index/parent_prefix_path/urdf
+/home/potato/test_ws/install/urdf/share/urdf/environment/ament_prefix_path.sh
+/home/potato/test_ws/install/urdf/share/urdf/environment/ament_prefix_path.dsv
+/home/potato/test_ws/install/urdf/share/urdf/environment/path.sh
+/home/potato/test_ws/install/urdf/share/urdf/environment/path.dsv
+/home/potato/test_ws/install/urdf/share/urdf/local_setup.bash
+/home/potato/test_ws/install/urdf/share/urdf/local_setup.sh
+/home/potato/test_ws/install/urdf/share/urdf/local_setup.zsh
+/home/potato/test_ws/install/urdf/share/urdf/local_setup.dsv
+/home/potato/test_ws/install/urdf/share/urdf/package.dsv
+/home/potato/test_ws/install/urdf/share/ament_index/resource_index/packages/urdf
+/home/potato/test_ws/install/urdf/share/urdf/cmake/urdfConfig.cmake
+/home/potato/test_ws/install/urdf/share/urdf/cmake/urdfConfig-version.cmake
+/home/potato/test_ws/install/urdf/share/urdf/package.xml

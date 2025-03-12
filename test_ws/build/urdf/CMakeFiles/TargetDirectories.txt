@@ -1,0 +1,9 @@
+/home/potato/test_ws/build/urdf/CMakeFiles/uninstall.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/urdf_uninstall.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/test.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/edit_cache.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/rebuild_cache.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/list_install_components.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/install.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/install/local.dir
+/home/potato/test_ws/build/urdf/CMakeFiles/install/strip.dir

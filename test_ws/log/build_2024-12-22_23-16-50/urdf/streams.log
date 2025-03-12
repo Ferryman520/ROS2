@@ -1,0 +1,22 @@
+[0.554s] Invoking command in '/home/potato/test_ws/src/urdf': PYTHONPATH=/home/potato/test_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/install/urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/potato/test_ws/build/urdf/build install --record /home/potato/test_ws/build/urdf/install.log --single-version-externally-managed install_data
+[0.748s] running egg_info
+[0.748s] writing ../../build/urdf/urdf.egg-info/PKG-INFO
+[0.749s] writing dependency_links to ../../build/urdf/urdf.egg-info/dependency_links.txt
+[0.749s] writing entry points to ../../build/urdf/urdf.egg-info/entry_points.txt
+[0.749s] writing requirements to ../../build/urdf/urdf.egg-info/requires.txt
+[0.749s] writing top-level names to ../../build/urdf/urdf.egg-info/top_level.txt
+[0.750s] reading manifest file '../../build/urdf/urdf.egg-info/SOURCES.txt'
+[0.751s] writing manifest file '../../build/urdf/urdf.egg-info/SOURCES.txt'
+[0.751s] running build
+[0.751s] running build_py
+[0.751s] running install
+[0.751s] running install_lib
+[0.752s] running install_data
+[0.752s] copying launch/display_rviz2.launch.py -> /home/potato/test_ws/install/urdf/share/urdf/launch
+[0.752s] running install_egg_info
+[0.754s] removing '/home/potato/test_ws/install/urdf/lib/python3.10/site-packages/urdf-0.0.0-py3.10.egg-info' (and everything under it)
+[0.754s] Copying ../../build/urdf/urdf.egg-info to /home/potato/test_ws/install/urdf/lib/python3.10/site-packages/urdf-0.0.0-py3.10.egg-info
+[0.755s] running install_scripts
+[0.772s] Installing rotate_wheel script to /home/potato/test_ws/install/urdf/lib/urdf
+[0.772s] writing list of installed files to '/home/potato/test_ws/build/urdf/install.log'
+[0.789s] Invoked command in '/home/potato/test_ws/src/urdf' returned '0': PYTHONPATH=/home/potato/test_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/install/urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/potato/test_ws/build/urdf/build install --record /home/potato/test_ws/build/urdf/install.log --single-version-externally-managed install_data

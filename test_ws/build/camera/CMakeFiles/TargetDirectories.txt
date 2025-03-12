@@ -1,0 +1,9 @@
+/home/potato/test_ws/build/camera/CMakeFiles/uninstall.dir
+/home/potato/test_ws/build/camera/CMakeFiles/camera_uninstall.dir
+/home/potato/test_ws/build/camera/CMakeFiles/test.dir
+/home/potato/test_ws/build/camera/CMakeFiles/edit_cache.dir
+/home/potato/test_ws/build/camera/CMakeFiles/rebuild_cache.dir
+/home/potato/test_ws/build/camera/CMakeFiles/list_install_components.dir
+/home/potato/test_ws/build/camera/CMakeFiles/install.dir
+/home/potato/test_ws/build/camera/CMakeFiles/install/local.dir
+/home/potato/test_ws/build/camera/CMakeFiles/install/strip.dir

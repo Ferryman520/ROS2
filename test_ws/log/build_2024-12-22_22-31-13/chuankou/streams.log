@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/potato/test_ws/build/chuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/chuankou -- -j4 -l4
+[0.039s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.174s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.194s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.200s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.242s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.245s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.367s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.369s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[0.375s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.376s] [31mCMake Error at CMakeLists.txt:21 (install):
+[0.376s]   install TARGETS given target "listen" which does not exist.
+[0.376s] 
+[0.376s] [0m
+[0.443s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.443s] -- Configured cppcheck include dirs: 
+[0.443s] -- Configured cppcheck exclude dirs and/or files: 
+[0.443s] -- Added test 'lint_cmake' to check CMake code style
+[0.444s] -- Added test 'uncrustify' to check C / C++ code style
+[0.444s] -- Configured uncrustify additional arguments: 
+[0.444s] -- Added test 'xmllint' to check XML markup files
+[0.444s] -- Configuring incomplete, errors occurred!
+[0.444s] See also "/home/potato/test_ws/build/chuankou/CMakeFiles/CMakeOutput.log".
+[0.452s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.455s] Invoked command in '/home/potato/test_ws/build/chuankou' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/chuankou -- -j4 -l4

@@ -1,0 +1,8 @@
+source;share/chuankou/hook/cmake_prefix_path.ps1
+source;share/chuankou/hook/cmake_prefix_path.dsv
+source;share/chuankou/hook/cmake_prefix_path.sh
+source;share/chuankou/local_setup.bash
+source;share/chuankou/local_setup.dsv
+source;share/chuankou/local_setup.ps1
+source;share/chuankou/local_setup.sh
+source;share/chuankou/local_setup.zsh

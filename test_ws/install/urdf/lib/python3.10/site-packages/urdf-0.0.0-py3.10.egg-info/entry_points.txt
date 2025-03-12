@@ -1,0 +1,3 @@
+[console_scripts]
+rotate_wheel = node.rotate_wheel:main
+

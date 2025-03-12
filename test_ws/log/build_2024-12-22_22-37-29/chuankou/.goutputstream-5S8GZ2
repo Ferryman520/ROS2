@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listen.dir/src/listen.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listen[0m
+[100%] Built target listen
+-- Install configuration: ""
+-- Installing: /home/potato/test_ws/install/chuankou/lib/chuankou/talker
+-- Set runtime path of "/home/potato/test_ws/install/chuankou/lib/chuankou/talker" to ""
+-- Installing: /home/potato/test_ws/install/chuankou/lib/chuankou/listen
+-- Set runtime path of "/home/potato/test_ws/install/chuankou/lib/chuankou/listen" to ""
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/ament_index/resource_index/package_run_dependencies/chuankou
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/ament_index/resource_index/parent_prefix_path/chuankou
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/environment/ament_prefix_path.sh
+-- Installing: /home/potato/test_ws/install/chuankou/share/chuankou/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/environment/path.sh
+-- Installing: /home/potato/test_ws/install/chuankou/share/chuankou/environment/path.dsv
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/local_setup.bash
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/local_setup.sh
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/local_setup.zsh
+-- Installing: /home/potato/test_ws/install/chuankou/share/chuankou/local_setup.dsv
+-- Installing: /home/potato/test_ws/install/chuankou/share/chuankou/package.dsv
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/ament_index/resource_index/packages/chuankou
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/cmake/chuankouConfig.cmake
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/cmake/chuankouConfig-version.cmake
+-- Up-to-date: /home/potato/test_ws/install/chuankou/share/chuankou/package.xml

@@ -1,0 +1,11 @@
+/home/potato/test_ws/build/chuankou/CMakeFiles/uninstall.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/chuankou_uninstall.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/talker.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/listen.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/test.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/edit_cache.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/rebuild_cache.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/list_install_components.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/install.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/install/local.dir
+/home/potato/test_ws/build/chuankou/CMakeFiles/install/strip.dir

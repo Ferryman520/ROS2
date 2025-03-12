@@ -1,0 +1,44 @@
+[0.492s] Invoking command in '/home/potato/test_ws/src/fishbot_description': PYTHONPATH=/home/potato/test_ws/src/fishbot_description/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/fishbot_description build --build-base /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build install --record /home/potato/test_ws/src/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed install_data
+[0.681s] running egg_info
+[0.681s] creating build/fishbot_description/fishbot_description.egg-info
+[0.681s] writing build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.681s] writing dependency_links to build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.681s] writing entry points to build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.681s] writing requirements to build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.682s] writing top-level names to build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.682s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.683s] reading manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.683s] writing manifest file 'build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.683s] running build_py
+[0.684s] creating /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build
+[0.684s] creating /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib
+[0.684s] creating /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.684s] copying fishbot_description/rotate_wheel.py -> /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.684s] copying fishbot_description/__init__.py -> /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib/fishbot_description
+[0.684s] running install
+[0.686s] running install_lib
+[0.686s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.686s] copying /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib/fishbot_description/rotate_wheel.py -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.686s] copying /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.686s] byte-compiling /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/rotate_wheel.py to rotate_wheel.cpython-310.pyc
+[0.686s] byte-compiling /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[0.686s] running install_data
+[0.686s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/ament_index
+[0.686s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/ament_index/resource_index
+[0.686s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.687s] copying resource/fishbot_description -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/ament_index/resource_index/packages
+[0.687s] copying package.xml -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description
+[0.687s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/launch
+[0.687s] copying launch/fishbot_gazebo.launch.py -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/launch
+[0.687s] copying launch/display_rviz2.launch.py -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/launch
+[0.687s] creating /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.688s] copying urdf/fishbot.gv -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.688s] copying urdf/fishbot_base.urdf -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.688s] copying urdf/fishbot.pdf -> /home/potato/test_ws/src/fishbot_description/install/fishbot_description/share/fishbot_description/urdf
+[0.688s] running install_egg_info
+[0.689s] Copying build/fishbot_description/fishbot_description.egg-info to /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.690s] running install_scripts
+[0.705s] Installing rotate_wheel script to /home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/fishbot_description
+[0.705s] writing list of installed files to '/home/potato/test_ws/src/fishbot_description/build/fishbot_description/install.log'
+[0.721s] Invoked command in '/home/potato/test_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/potato/test_ws/src/fishbot_description/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/src/fishbot_description/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/fishbot_description build --build-base /home/potato/test_ws/src/fishbot_description/build/fishbot_description/build install --record /home/potato/test_ws/src/fishbot_description/build/fishbot_description/install.log --single-version-externally-managed install_data

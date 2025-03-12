@@ -1,0 +1,4 @@
+source;share/chuankou/local_setup.bash
+source;share/chuankou/local_setup.dsv
+source;share/chuankou/local_setup.sh
+source;share/chuankou/local_setup.zsh

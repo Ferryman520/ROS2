@@ -1,0 +1,332 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7329ef748550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7329ef717be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7329ef717be0>>)
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.265s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/potato/test_ws'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera' with type 'ros.ament_cmake' and name 'camera'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/chuankou) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chuankou' with type 'ros.ament_cmake' and name 'chuankou'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard' with type 'ros.ament_cmake' and name 'keyboard'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf' with type 'ros.ament_python' and name 'urdf'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.303s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/potato/ros2_ws/install
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 21 installed packages in /home/potato/dev_ws/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/potato/fishbot_ws/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 320 installed packages in /opt/ros/humble
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.349s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'urdf' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding urdf
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potato/test_ws/build/camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potato/test_ws/install/camera', 'merge_install': False, 'path': '/home/potato/test_ws/src/camera', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'chuankou' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'chuankou' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potato/test_ws/build/chuankou', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potato/test_ws/install/chuankou', 'merge_install': False, 'path': '/home/potato/test_ws/src/chuankou', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.350s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potato/test_ws/build/keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potato/test_ws/install/keyboard', 'merge_install': False, 'path': '/home/potato/test_ws/src/keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.350s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_target' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.351s] Level 5:colcon.colcon_core.verb:set package 'urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.351s] DEBUG:colcon.colcon_core.verb:Building package 'urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/potato/test_ws/build/urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/potato/test_ws/install/urdf', 'merge_install': False, 'path': '/home/potato/test_ws/src/urdf', 'symlink_install': False, 'test_result_base': None}
+[0.351s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.352s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/potato/test_ws/src/camera' with build type 'ament_cmake'
+[0.352s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/potato/test_ws/src/camera'
+[0.354s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/potato/test_ws/src/chuankou' with build type 'ament_cmake'
+[0.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/potato/test_ws/src/chuankou'
+[0.359s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.359s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/potato/test_ws/src/keyboard' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/potato/test_ws/src/keyboard'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/potato/test_ws/src/urdf' with build type 'ament_python'
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf', 'ament_prefix_path')
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/ament_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/urdf/share/urdf/hook/ament_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/ament_prefix_path.sh'
+[0.370s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.370s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/camera -- -j4 -l4
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/chuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/chuankou -- -j4 -l4
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/keyboard -- -j4 -l4
+[0.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/potato/test_ws/src/urdf'
+[0.639s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.639s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/camera -- -j4 -l4
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/keyboard -- -j4 -l4
+[0.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/chuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --build /home/potato/test_ws/build/chuankou -- -j4 -l4
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/camera
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/chuankou': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/chuankou
+[0.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/build/keyboard': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/keyboard
+[0.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera' for CMake module files
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/camera
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera' for CMake config files
+[0.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'cmake_prefix_path')
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.dsv'
+[0.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.sh'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/bin'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/lib/pkgconfig/camera.pc'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/lib/python3.10/site-packages'
+[0.694s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/bin'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.ps1'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/camera/share/camera/package.dsv'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.sh'
+[0.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.bash'
+[0.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.zsh'
+[0.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/camera/share/colcon-core/packages/camera)
+[0.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chuankou)
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou' for CMake module files
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/chuankou' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/chuankou
+[0.700s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou' for CMake config files
+[0.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('chuankou', 'cmake_prefix_path')
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.sh'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/bin'
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib/pkgconfig/chuankou.pc'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib/python3.10/site-packages'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/bin'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.ps1'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/chuankou/share/chuankou/package.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.bash'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.zsh'
+[0.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/chuankou/share/colcon-core/packages/chuankou)
+[0.705s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard' for CMake module files
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/bin'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib/python3.10/site-packages'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/bin'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.ps1'
+[0.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/potato/ros2_ws/install/learning_urdf:/home/potato/ros2_ws/install/learning_topic:/home/potato/ros2_ws/install/learning_tf:/home/potato/ros2_ws/install/learning_service:/home/potato/ros2_ws/install/learning_qos:/home/potato/ros2_ws/install/learning_pkg_python:/home/potato/ros2_ws/install/learning_parameter:/home/potato/ros2_ws/install/learning_node:/home/potato/ros2_ws/install/learning_launch:/home/potato/ros2_ws/install/learning_action:/home/potato/ros2_ws/install/learning_gazebo_harmonic:/home/potato/ros2_ws/install/learning_gazebo:/home/potato/ros2_ws/install/learning_cv:/opt/ros/humble:/home/potato/dev_ws/install/learning_urdf:/home/potato/dev_ws/install/learning_topic:/home/potato/dev_ws/install/learning_tf:/home/potato/dev_ws/install/learning_service:/home/potato/dev_ws/install/learning_qos:/home/potato/dev_ws/install/learning_pkg_python:/home/potato/dev_ws/install/learning_parameter:/home/potato/dev_ws/install/learning_node:/home/potato/dev_ws/install/learning_launch:/home/potato/dev_ws/install/learning_action:/home/potato/dev_ws/install/learning_gazebo_harmonic:/home/potato/dev_ws/install/learning_gazebo:/home/potato/dev_ws/install/learning_cv:/home/potato/fishbot_ws/install/fishbot_description /usr/bin/cmake --install /home/potato/test_ws/build/keyboard
+[0.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/keyboard/share/keyboard/package.dsv'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.sh'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.bash'
+[0.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.zsh'
+[0.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[0.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera)
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera' for CMake module files
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera' for CMake config files
+[0.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera', 'cmake_prefix_path')
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.ps1'
+[0.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.dsv'
+[0.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/camera/share/camera/hook/cmake_prefix_path.sh'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/bin'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/lib/pkgconfig/camera.pc'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/lib/python3.10/site-packages'
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/camera/bin'
+[0.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/camera/share/camera/package.dsv'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.sh'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.bash'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/camera/share/camera/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/camera/share/colcon-core/packages/camera)
+[0.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chuankou)
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou' for CMake module files
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou' for CMake config files
+[0.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('chuankou', 'cmake_prefix_path')
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/chuankou/share/chuankou/hook/cmake_prefix_path.sh'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/bin'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib/pkgconfig/chuankou.pc'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/lib/python3.10/site-packages'
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/chuankou/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.ps1'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/chuankou/share/chuankou/package.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.sh'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.bash'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/chuankou/share/chuankou/package.zsh'
+[0.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/chuankou/share/colcon-core/packages/chuankou)
+[0.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard' for CMake module files
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/bin'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/lib/python3.10/site-packages'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/keyboard/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.ps1'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/keyboard/share/keyboard/package.dsv'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.sh'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.bash'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/keyboard/share/keyboard/package.zsh'
+[0.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/keyboard/share/colcon-core/packages/keyboard)
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/potato/test_ws/src/urdf': PYTHONPATH=/home/potato/test_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/install/urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/potato/test_ws/build/urdf/build install --record /home/potato/test_ws/build/urdf/install.log --single-version-externally-managed install_data
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf' for CMake module files
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf' for CMake config files
+[1.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf', 'cmake_prefix_path')
+[1.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/cmake_prefix_path.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/urdf/share/urdf/hook/cmake_prefix_path.dsv'
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/potato/test_ws/src/urdf' returned '0': PYTHONPATH=/home/potato/test_ws/build/urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/potato/test_ws/install/urdf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/urdf build --build-base /home/potato/test_ws/build/urdf/build install --record /home/potato/test_ws/build/urdf/install.log --single-version-externally-managed install_data
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/cmake_prefix_path.sh'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf/lib'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf/bin'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf/lib/pkgconfig/urdf.pc'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf/lib/python3.10/site-packages'
+[1.195s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf', 'pythonpath')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/pythonpath.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/potato/test_ws/install/urdf/share/urdf/hook/pythonpath.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/potato/test_ws/install/urdf/share/urdf/hook/pythonpath.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/potato/test_ws/install/urdf/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf)
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/urdf/share/urdf/package.ps1'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/potato/test_ws/install/urdf/share/urdf/package.dsv'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/urdf/share/urdf/package.sh'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/urdf/share/urdf/package.bash'
+[1.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/potato/test_ws/install/urdf/share/urdf/package.zsh'
+[1.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/potato/test_ws/install/urdf/share/colcon-core/packages/urdf)
+[1.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.199s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.204s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.204s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.214s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.214s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potato/test_ws/install/local_setup.ps1'
+[1.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/potato/test_ws/install/_local_setup_util_ps1.py'
+[1.216s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potato/test_ws/install/setup.ps1'
+[1.217s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potato/test_ws/install/local_setup.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/potato/test_ws/install/_local_setup_util_sh.py'
+[1.218s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potato/test_ws/install/setup.sh'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potato/test_ws/install/local_setup.bash'
+[1.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potato/test_ws/install/setup.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/potato/test_ws/install/local_setup.zsh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/potato/test_ws/install/setup.zsh'

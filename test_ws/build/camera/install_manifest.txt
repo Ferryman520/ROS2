@@ -1,0 +1,15 @@
+/home/potato/test_ws/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+/home/potato/test_ws/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+/home/potato/test_ws/install/camera/share/camera/environment/ament_prefix_path.sh
+/home/potato/test_ws/install/camera/share/camera/environment/ament_prefix_path.dsv
+/home/potato/test_ws/install/camera/share/camera/environment/path.sh
+/home/potato/test_ws/install/camera/share/camera/environment/path.dsv
+/home/potato/test_ws/install/camera/share/camera/local_setup.bash
+/home/potato/test_ws/install/camera/share/camera/local_setup.sh
+/home/potato/test_ws/install/camera/share/camera/local_setup.zsh
+/home/potato/test_ws/install/camera/share/camera/local_setup.dsv
+/home/potato/test_ws/install/camera/share/camera/package.dsv
+/home/potato/test_ws/install/camera/share/ament_index/resource_index/packages/camera
+/home/potato/test_ws/install/camera/share/camera/cmake/cameraConfig.cmake
+/home/potato/test_ws/install/camera/share/camera/cmake/cameraConfig-version.cmake
+/home/potato/test_ws/install/camera/share/camera/package.xml
